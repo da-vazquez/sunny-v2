@@ -31,7 +31,7 @@ const App = () =>  {
       restrictWidth="none"
       bottomBorder={true}
       pageTitle="Pre-season is in the books"
-      description="Author: Daniel V"
+      description="BY: John Doe  |  POSTED: OCT 21, 2023 6:00 AM"
     />
   )
   

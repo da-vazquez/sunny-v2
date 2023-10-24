@@ -21,6 +21,7 @@ const PageTemplate = ({
     <EuiPageTemplate
       panelled={panelled}
       bottomBorder={bottomBorder}
+      restrictWidth={"95%"}
       grow={grow}
       offset={offset}
     >

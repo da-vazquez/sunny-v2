@@ -30,8 +30,10 @@ const App = () =>  {
       paddingSize="l"
       restrictWidth="none"
       bottomBorder={true}
-      pageTitle="Pre-season is in the books"
-      description="BY: John Doe  |  POSTED: OCT 21, 2023 6:00 AM"
+      panelled="left"
+      pageTitle="NewsFeed"
+      iconType={"article"}
+      description=""
     />
   )
   

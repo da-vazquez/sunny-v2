@@ -1,0 +1,30 @@
+# Ignore Node.js modules
+/node_modules
+
+# Ignore environment-specific configuration files
+.env
+
+# Ignore operating system and IDE-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Python-specific files
+__pycache__
+
+# Ignore virtual environment directories (commonly used in Python projects)
+venv/
+env/
+
+# Ignore package-lock.json (for Node.js projects)
+package-lock.json
+
+# Ignore log files and other generated files
+*.log
+*.log.*
+*.swp
+*.swo
+*.swn
+*.swn?
+*.swo?
+*.pyc
+*.db

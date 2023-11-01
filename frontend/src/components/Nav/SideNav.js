@@ -43,11 +43,19 @@ const SideNav = () => {
   ];
   return (
     <EuiSideNav
+<<<<<<< HEAD:frontend/src/components/Nav/SideNav.js
       truncate={true}
       heading="Recent Sunny Times Articles"
       toggleOpenOnMobile={() => toggleOpenOnMobile()}
       isOpenOnMobile={isSideNavOpenOnMobile}
       style={{ width: 330, borderLeft: "1px solid grey", padding: 30, height: "100%" }}
+=======
+      truncate={false}
+      heading="Recent Sunny Times Articles"
+      toggleOpenOnMobile={() => toggleOpenOnMobile()}
+      isOpenOnMobile={isSideNavOpenOnMobile}
+      style={{ width: 392, borderLeft: "1px solid grey", padding: 40, height: "100%" }}
+>>>>>>> main:src/components/Nav/SideNav.js
       items={sideNav}
     />
   );

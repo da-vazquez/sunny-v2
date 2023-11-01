@@ -19,7 +19,7 @@ import {
 
 const Nav = () => {
   return (
-    <>
+    <div style={{height: "45px"}}>
       <EuiPanel color="plain" hasBorder padding="m">
         <EuiFlexGroup justifyContent="flexStart" alignItems="center" gutterSize="s">
           <EuiFlexItem grow={false}>
@@ -36,7 +36,7 @@ const Nav = () => {
           </EuiFlexItem>
         </EuiFlexGroup>
       </EuiPanel>
-    </>
+    </div>
   )
 }
 

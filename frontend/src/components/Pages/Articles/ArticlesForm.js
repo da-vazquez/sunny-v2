@@ -24,7 +24,7 @@ const ArticlesForm = ({ updatePreview }) => {
   };
 
   return (
-    <div style={{display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", height: "auto", width: "100%", outline: "1px solid yellow"}}>
+    <div style={{display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "flex-start", height: "auto", width: "100%", outline: "1px solid yellow", gap: "20px"}}>
       <input
         size="l"
         type="text"

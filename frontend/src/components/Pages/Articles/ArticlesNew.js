@@ -1,4 +1,8 @@
-import React, { useState } from 'react';
+import {useState} from "react";
+import PageTemplate from "../PageTemplate";
+import ArticlesForm from './ArticlesForm';
+import ArticlePreview from './ArticlePreview'; // Import the ArticlePreview component
+
 import {
   EuiText,
   EuiCard,
@@ -17,14 +21,19 @@ import {
   EuiFlexItem,
 } from '@elastic/eui';
 
-import ArticlesForm from './ArticlesForm';
-import ArticlePreview from './ArticlePreview'; // Import the ArticlePreview component
+const iconType="gear"
+const pageTitle="Create New Article"
+const description=""
+const width = "95%"
 
-const ArticlesNew = () => {
+
+
+const Content = () => {
+
   const [previewData, setPreviewData] = useState({
     title: '',
     content: '',
-    imageURL: '',
+    imageURL: 'https://gray-kpho-prod.cdn.arcpublishing.com/resizer/t3fqNnYmxR7w0M_9N5cS7qHHjD0=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/Z5OOUDTLUBAS7MXFHFKKDXSTRE.jpg',
   });
 
   const updatePreview = (title, content, imageURL) => {
@@ -45,6 +54,23 @@ const ArticlesNew = () => {
       </div>
     </div>
   );
+}
+
+
+const ArticlesNew = () => {
+  return <PageTemplate
+  iconType={iconType}
+  pageTitle={pageTitle}
+  description={description}
+  restrictWidth={width}
+  pageContent=
+  {
+    <>
+      <Content />
+    </>
+  }
+  />;
 };
+
 
 export default ArticlesNew;

@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 
 const initialState = {
-  name: ""
+  name: "",
   age: "",
   location: "",
 }
